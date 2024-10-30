@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ray Iasmin Corretora</title>
+    <link rel="shortcut icon" href="house-icon.gif" type="image/x-icon" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
+    <!-- Development version -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <!-- Production version -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img src="assets/ray-logo.png" alt="logo Ray Corretora" class="logo" />
+      <!-- <i data-lucide="house" class="logo"></i> -->
+      <nav>
+        <a href="#">Início</a>
+        <a href="https://wa.me/c/556292896272" target="_blank">Catálogo</a>
+        <a href="#quem-sou">Quem sou</a>
+      </nav>
+      <div class="icones">
+        <a
+          href="https://www.instagram.com/ray.iasmin?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          target="_blank"
+          class="social-icone"
+        >
+          <i class="fa fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/ray.iasmin"
+          target="_blank"
+          class="social-icone"
+        >
+          <i class="fa fa-facebook"></i>
+        </a>
+        <a
+          href="https://wa.me/556292896272?text=Olá,%20Vim%20pelo%20site%20e%20tenho%20interesse%20em%20um%20imóvel."
+          class="social-icone"
+          target="_blank"
+        >
+          <i class="fa fa-whatsapp"></i>
+        </a>
+      </div>
+    </header>
+    <main class="container">
+      <div>
+        <h1 class="titulo">
+          Eu <span>facilito</span> sua busca pelo <span>imóvel</span> dos
+          sonhos, sem complicações.
+        </h1>
+        <a href="#">
+          <button
+            class="botao"
+            onclick="abrirWhatsapp('https://wa.me/556292896272?text=Olá,%20Vim%20pelo%20site%20e%20tenho%20interesse%20em%20um%20imóvel.')"
+          >
+            Whatsapp <i class="fa fa-whatsapp"></i>
+          </button>
+        </a>
+      </div>
+      <div id="animacao"></div>
+    </main>
+    <!-- <section class="container">
+      <div id="mapa"></div>
+      <h1 class="titulo2">
+        Atuamos em toda <span>Goiânia</span> e região metropolitana
+      </h1>
+    </section> -->
+    <section class="cards">
+      <div class="card">
+        <i data-lucide="map-pinned" class="icon-card"></i>
+        <h3 class="titulo-card">Localização</h3>
+        <p class="texto-card">
+          Atuamos em Goiânia e em toda região metropolitana
+        </p>
+      </div>
+      <div class="card">
+        <i data-lucide="id-card" class="icon-card"></i>
+        <h3 class="titulo-card">CRECI</h3>
+        <p class="texto-card">
+          Somos registrados no Conselho Regional de Corretores de Imóveis
+        </p>
+      </div>
+      <div class="card">
+        <i data-lucide="house" class="icon-card"></i>
+        <h3 class="titulo-card">Variedades</h3>
+        <p class="texto-card">
+          Seja casa ou apartamento, temos os melhores imóveis para você
+        </p>
+      </div>
+      <div class="card">
+        <i data-lucide="circle-dollar-sign" class="icon-card"></i>
+        <h3 class="titulo-card">Condições</h3>
+        <p class="texto-card">
+          Temos os melhores preços e as melhores condições de pagamento
+        </p>
+      </div>
+    </section>
+
+    <section class="quem-sou" id="quem-sou">
+      <div class="descricao">
+        <h3 class="titulo-quem-sou">Quem sou</h3>
+        <p class="texto-quem-sou">
+          Olá! Eu sou Rayenne Iasmin, corretora de imóveis apaixonada por ajudar
+          pessoas a encontrar o lar dos seus sonhos. Com meu CRECI 41.477,
+          dedico-me a oferecer um atendimento personalizado e humanizado, sempre
+          buscando entender suas necessidades e desejos.<br />
+          <br />
+          O mercado imobiliário pode ser desafiador, mas estou aqui para tornar
+          sua jornada mais simples e prazerosa. Minha missão é garantir que você
+          se sinta seguro e confiante em cada etapa do processo, seja na compra,
+          venda ou locação de um imóvel.
+        </p>
+      </div>
+      <img src="assets/quem-sou.png" alt="quem sou" class="img-quem-sou" />
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
